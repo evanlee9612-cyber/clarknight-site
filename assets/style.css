@@ -26,7 +26,7 @@ nav.menu a:hover,nav.menu a.on{color:var(--text);background:var(--card)}
 section{padding:56px 0}
 h2.sec{font-size:28px;margin:0 0 6px;letter-spacing:-.5px}
 p.sub{color:var(--muted);margin:0 0 26px}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;color:var(--text);transition:transform .15s}
 .card:hover{transform:translateY(-3px);border-color:var(--neon)}
 .card img{aspect-ratio:1/1;object-fit:cover;width:100%}
@@ -66,4 +66,8 @@ footer a{color:var(--muted)}
  article h1{font-size:27px}
  header.top .wrap{height:auto;flex-direction:column;align-items:flex-start;padding-top:10px;padding-bottom:6px;gap:2px}
  .btn.ghost{margin:10px 0 0}
+ .float{padding:10px 14px;font-size:14px;right:12px;bottom:12px}
+ .cards{grid-template-columns:1fr 1fr;gap:12px}
+ .card h3{font-size:17px}
+ .card p{font-size:14px}
 }
