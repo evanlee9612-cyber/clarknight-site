@@ -71,3 +71,4 @@ footer a{color:var(--muted)}
  .card h3{font-size:17px}
  .card p{font-size:14px}
 }
+.cap{font-size:13px;color:var(--muted,#999);margin:6px 0 0}
